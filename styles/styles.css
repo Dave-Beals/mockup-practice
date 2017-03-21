@@ -73,7 +73,7 @@ ul.navigation {
 .aside-profiles h3 {
   font-size: 1.5rem;
   font-family: helvetica; arial;
-  margin: 1em 0 0.5em 0;
+  margin: 1em 0 0.25em 0;
 }
 
 .aside-profiles figcaption {
@@ -93,6 +93,7 @@ ul.navigation {
 
 .weekly-cat img {
   width: 100%;
+  padding: 0 1rem 0;
 }
 
 .fan-favorite {
@@ -101,18 +102,23 @@ ul.navigation {
 
 .fan-favorite img {
   width: 100%;
+  padding: 0 1rem 0;
 }
 
 .first-booking-link {
   position: absolute;
   right: 1rem;
   margin-bottom: 1rem;
+  font-family: helvetica; arial;
+  color: red;
 }
 
 .second-booking-link {
   position: absolute;
   right: 1rem;
   bottom: 0.5rem;
+  font-family: helvetica; arial;
+  color: red;
 }
 
 .fan-fav-caption {
