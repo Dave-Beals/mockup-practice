@@ -75,6 +75,17 @@ ul.navigation {
   margin: 1em 0 0.5em 0;
 }
 
+.aside-profiles figcaption {
+  font-size: 1.25rem;
+  font-family: helvetica; arial;
+  text-align: center;
+}
+
+.aside-profiles p {
+  margin: 0.5em 0 1em 0;
+  font-family: helvetica; arial;
+}
+
 .weekly-cat {
   margin: 0;
 }
