@@ -3,17 +3,21 @@
   <head>
     <meta charset="utf-8">
     <title>Cat of the Week</title>
+    <link rel="normalize" type="text/css" href="styles/normalize.css">
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
   </head>
   <body>
     <header>
-      <div>
+      <div class="page-titles">
         <h1>Kitties to Go!</h1>
         <h2>Seattle's premiere drive-thru cat rentals</h2>
       </div>
-        <a href="" title="Book a Cat!">Open right MEOW! Book a cat</a>
-      <div>
+      <div class="top-booking">
+        <a class="book-links" href="" title="Book a Cat!">Open right MEOW! Book a cat</a>
+      </div>
+      <div class="navigation-menu">
         <nav>
-          <ul>
+          <ul class="navigation">
             <li><a href="" title="About">About</a></li>
             <li><a href="" title="Rates">Rates</a></li>
             <li><a href="" title="Liability Release">Liability Release</a></li>
@@ -23,42 +27,49 @@
         </nav>
       </div>
     </header>
-    <article>
-      <h2>The Kitties to Go story</h2>
-        <p>
+    <div class="column-section">
+      <article class="main-column">
+        <h2>The Kitties to Go story</h2>
+          <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus commodo
           bibendum scelerisque. Integer rutrum mi sit amet semper lacinia. Etiam odio tortor,
           convallis eu magna vel, scelerisque congue felis. Integer urna ex, interdum eget
           commodo sit amet, ornare eget mauris. Ut a velit ultrices, blandit.</p>
-      <h2>Testimonials</h2>
-        <p>"Phasellus commodo bibendum scelerisque. Integer rutrum mi sit amet
+        <h2>Testimonials</h2>
+          <p>"Phasellus commodo bibendum scelerisque. Integer rutrum mi sit amet
           semper lacinia. Etiam odio tortor." &mdash; Kitten von Meow</p>
-        <p>"Integer rutrum mi sit amet semper lacinia. Etiam odio tortor." &mdash;
+          <p>"Integer rutrum mi sit amet semper lacinia. Etiam odio tortor." &mdash;
           Pickles the Cat</p>
-    </article>
-    <aside>
-      <h3>Cat of the Week</h3>
-        <figure>
-          <img src="" title="">
-          <figcaption>Pickles</figcaption>
-        </figure>
-      <h3>Fan Favorite</h3>
-        <figure>
-          <img src="" title="">
-          <figcaption>It's also Pickles!</figcaption>
-        </figure>
-      <a href="" title="Book a cat!">Book Now</a>
-      <a href="" title="DO IT! Book a cat!">Book Now</a>
-    </aside>
+      </article>
+      <aside class="aside-profiles">
+        <h3>Cat of the Week</h3>
+          <div class="weekly-cat">
+            <figure>
+              <img src="images/pickles-resized.jpeg" title="Pickles">
+              <figcaption>Pickles</figcaption>
+            </figure>
+            <p>Pickles is cat of the week every week.</p>
+          </div>
+        <h3>Fan Favorite</h3>
+          <div class="fan-favorite">
+            <figure>
+              <img src="images/pickles-in-bag-resized.jpeg" title="Fan Favorite">
+              <figcaption>It's also Pickles!</figcaption>
+            </figure>
+          </div>
+          <a href="" title="Book a cat!">Book Now</a>
+          <a href="" title="DO IT! Book a cat!">Book Now</a>
+      </aside>
+    </div>
     <footer>
-      <div>
+      <div class="footer">
         <ul>
           <li>Kitties To Go!</li>
           <li>(555) 867-5309</li>
           <li><a href="" title="Contact E-mail">kittieslogo@catmail.com</a></li>
         <ul>
       </div>
-      <div>
+      <div class="copyright">
         <li></li>
         <li></li>
       </div>
