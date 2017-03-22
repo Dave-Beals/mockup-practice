@@ -35,7 +35,7 @@ header h2 {
 
 footer {
   background-color: black;
-  font-family: helvetica; arial;
+  font-family: helvetica;
   color: white;
   height: 10rem;
   margin-top: 2rem;
@@ -50,7 +50,7 @@ figure {
 
 .top-book-link {
   font-size: 1.25rem;
-  font-family: helvetica; arial;
+  font-family: helvetica;
   font-weight: lighter;
   color: red;
   position: absolute;
@@ -106,6 +106,14 @@ figure {
   margin-bottom: 0.25rem
 }
 
+.main-column img {
+  width: 100%;
+}
+
+.main-column figcaption {
+  font-size: 0.75rem;
+}
+
 .testimonials {
   font-style: italic;
 }
@@ -125,35 +133,35 @@ figure {
 
 .aside-profiles h3 {
   font-size: 1.5rem;
-  font-family: helvetica; arial;
+  font-family: helvetica;
   margin: 1em 0 0.25em 0;
 }
 
 .aside-profiles figcaption {
   font-size: 1.25rem;
-  font-family: helvetica; arial;
+  font-family: helvetica;
   text-align: center;
 }
 
 .aside-profiles p {
   margin: 0.5rem 0 0.25rem 0;
-  font-family: helvetica; arial;
+  font-family: helvetica;
 }
 
-.weekly-cat {
+.sidebar-1 {
   margin: 0;
 }
 
-.weekly-cat img {
+.sidebar-1 img {
   width: 100%;
   padding: 0 1rem 0;
 }
 
-.fan-favorite {
+.sidebar-2 {
   margin: 0;
 }
 
-.fan-favorite img {
+.sidebar-2 img {
   width: 100%;
   padding: 0 1rem 0;
 }
@@ -162,7 +170,7 @@ figure {
   position: absolute;
   right: 1rem;
   margin-bottom: 1rem;
-  font-family: helvetica; arial;
+  font-family: helvetica;
   color: red;
 }
 
@@ -170,11 +178,11 @@ figure {
   position: absolute;
   right: 1rem;
   bottom: 0.5rem;
-  font-family: helvetica; arial;
+  font-family: helvetica;
   color: red;
 }
 
-.fan-fav-caption {
+.sidebar-2-caption {
   padding: 0 0 1.5rem 0;
 }
 
