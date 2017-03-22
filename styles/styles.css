@@ -33,6 +33,17 @@ header h2 {
   margin: 0.5rem 0 0.2rem 0;
 }
 
+footer {
+  background-color: black;
+  font-family: helvetica; arial;
+  color: white;
+  height: 10rem;
+  margin-top: 2rem;
+  /*display: flex;
+  flex-direction: column;*/
+  position: relative;
+}
+
 figure {
   margin: 0;
 }
@@ -165,4 +176,25 @@ figure {
 
 .fan-fav-caption {
   padding: 0 0 1.5rem 0;
+}
+
+.footer-contact {
+  position: absolute;
+  left: 0;
+}
+
+.footer-contact ul {
+  list-style: none;
+}
+
+.footer-copyright {
+  position: absolute;
+  bottom: .25rem;
+  text-align: center;
+  margin: 0 auto 0;
+  width: 100%;
+}
+
+.footer-copyright ul {
+  list-style: none;
 }
